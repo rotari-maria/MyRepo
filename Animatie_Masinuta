@@ -1,0 +1,390 @@
+#include <iostream>
+#include <thread>
+#include <chrono>
+
+using namespace std;
+const int sleepTime = 500;
+
+void clear_terminal() {
+    #ifdef _WIN32
+        system("cls");
+    #else
+        system("clear");
+    #endif
+}
+
+void sleep_ms(int milliseconds)
+{
+    this_thread::sleep_for(chrono::milliseconds(milliseconds));
+}
+
+void stop(){
+    cout<<"                                  ____"<<endl;
+    cout<<"                                 |STOP|"<<endl;
+    cout<<"                                 |____|"<<endl;
+    cout<<"                                    |"<<endl;
+    cout<<"                                    |"<<endl;
+}
+void frame1()
+{
+    cout<<"            "<<endl;
+    cout<<"     ________"<<endl;
+    cout<<"  __/ [] []  \\__"<<endl;
+    cout<<" |             |"<<endl;
+    cout<<"  O-----------O"<<endl;
+    stop();
+}
+void frame2()
+{
+    cout<<"            "<<endl;
+    cout<<"      ________"<<endl;
+    cout<<"   __/ [] []  \\__"<<endl;
+    cout<<"  |             |"<<endl;
+    cout<<"   O-----------O"<<endl;
+    stop();
+}
+void frame3()
+{
+    cout<<"            "<<endl;
+    cout<<"       ________"<<endl;
+    cout<<"    __/ [] []  \\__"<<endl;
+    cout<<"   |             |"<<endl;
+    cout<<"    O-----------O"<<endl;
+    stop();
+}
+void frame4()
+{
+    cout<<"            "<<endl;
+    cout<<"        ________"<<endl;
+    cout<<"     __/ [] []  \\__"<<endl;
+    cout<<"    |             |"<<endl;
+    cout<<"     O-----------O"<<endl;
+    stop();
+}
+void frame5()
+{
+    cout<<"            "<<endl;
+    cout<<"         ________"<<endl;
+    cout<<"      __/ [] []  \\__"<<endl;
+    cout<<"     |             |"<<endl;
+    cout<<"      O-----------O"<<endl;
+    stop();
+}
+void frame6()
+{
+    cout<<"            "<<endl;
+    cout<<"          ________"<<endl;
+    cout<<"       __/ [] []  \\__"<<endl;
+    cout<<"      |             |"<<endl;
+    cout<<"       O-----------O"<<endl;
+    stop();
+}
+void frame7()
+{
+    cout<<"            "<<endl;
+    cout<<"           ________"<<endl;
+    cout<<"        __/ [] []  \\__"<<endl;
+    cout<<"       |             |"<<endl;
+    cout<<"        O-----------O"<<endl;
+    stop();
+}
+void frame8()
+{
+    cout<<"            "<<endl;
+    cout<<"            ________"<<endl;
+    cout<<"         __/ [] []  \\__"<<endl;
+    cout<<"        |             |"<<endl;
+    cout<<"         O-----------O"<<endl;
+    stop();
+}
+void frame9()
+{
+    cout<<"            "<<endl;
+    cout<<"             ________"<<endl;
+    cout<<"          __/ [] []  \\__"<<endl;
+    cout<<"         |             |"<<endl;
+    cout<<"          O-----------O"<<endl;
+    stop();
+}
+void frame10()
+{
+    cout<<"            "<<endl;
+    cout<<"              ________"<<endl;
+    cout<<"           __/ [] []  \\__"<<endl;
+    cout<<"          |             |"<<endl;
+    cout<<"           O-----------O"<<endl;
+    stop();
+}
+void frame11()
+{
+    cout<<"            "<<endl;
+    cout<<"               ________"<<endl;
+    cout<<"            __/ [] []  \\__"<<endl;
+    cout<<"           |             |"<<endl;
+    cout<<"            O-----------O"<<endl;
+    stop();
+}
+void frame12()
+{
+    cout<<"            "<<endl;
+    cout<<"                ________"<<endl;
+    cout<<"             __/ [] []  \\__"<<endl;
+    cout<<"            |             |"<<endl;
+    cout<<"             O-----------O"<<endl;
+    stop();
+}
+void frame13()
+{
+    cout<<"            "<<endl;
+    cout<<"                 ________"<<endl;
+    cout<<"              __/ [] []  \\__"<<endl;
+    cout<<"             |             |"<<endl;
+    cout<<"              O-----------O"<<endl;
+    stop();
+}
+void frame14()
+{
+    cout<<"            "<<endl;
+    cout<<"                  ________"<<endl;
+    cout<<"               __/ [] []  \\__"<<endl;
+    cout<<"              |             |"<<endl;
+    cout<<"               O-----------O"<<endl;
+    stop();
+}
+void frame15()
+{
+    cout<<"            "<<endl;
+    cout<<"                   ________"<<endl;
+    cout<<"                __/ [] []  \\__"<<endl;
+    cout<<"               |             |"<<endl;
+    cout<<"                O-----------O"<<endl;
+    stop();
+}
+void frame16()
+{
+    cout<<"            "<<endl;
+    cout<<"                    ________"<<endl;
+    cout<<"                 __/ [] []  \\__"<<endl;
+    cout<<"                |             |"<<endl;
+    cout<<"                 O-----------O"<<endl;
+    stop();
+}
+void frame17()
+{
+    cout<<"            "<<endl;
+    cout<<"                     ________"<<endl;
+    cout<<"                  __/ [] []  \\__"<<endl;
+    cout<<"                 |             |"<<endl;
+    cout<<"                  O-----------O"<<endl;
+    stop();
+}
+void frame18()
+{
+    cout<<"            "<<endl;
+    cout<<"                      ________"<<endl;
+    cout<<"                   __/ [] []  \\__"<<endl;
+    cout<<"                  |             |"<<endl;
+    cout<<"                   O-----------O"<<endl;
+    stop();
+}
+void frame19()
+{
+    cout<<"            "<<endl;
+    cout<<"                       ________"<<endl;
+    cout<<"                    __/ [] []  \\__"<<endl;
+    cout<<"                   |             |"<<endl;
+    cout<<"                    O-----------O"<<endl;
+    stop();
+}
+void frame20()
+{
+    cout<<"            "<<endl;
+    cout<<"                        ________"<<endl;
+    cout<<"                     __/ [] []  \\__"<<endl;
+    cout<<"                    |             |"<<endl;
+    cout<<"                     O-----------O"<<endl;
+    stop();
+}
+
+void loop(){
+    frame1();
+    sleep_ms(200);
+    clear_terminal();
+    
+     frame2();
+    sleep_ms(200);
+    clear_terminal();
+    
+     frame3();
+    sleep_ms(200);
+    clear_terminal();
+    
+     frame4();
+    sleep_ms(200);
+    clear_terminal();
+    
+     frame5();
+    sleep_ms(200);
+    clear_terminal();
+    
+     frame6();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame7();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame8();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame9();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame10();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame11();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame12();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame13();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame14();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame15();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame16();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame17();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame18();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame19();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame20();
+    sleep_ms(200);
+    cout<<"Indicator STOP!"<<endl;
+    sleep_ms(1500);
+    clear_terminal();
+    
+    frame19();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame18();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame17();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame16();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame15();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame14();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame13();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame12();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame11();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame10();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame9();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame8();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame7();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame6();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame5();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame4();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame3();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame2();
+    sleep_ms(200);
+    clear_terminal();
+    
+    frame1();
+    sleep_ms(200);
+    clear_terminal();
+
+}
+int main(){
+    cout<<"3"<<endl;
+    sleep_ms(1000);
+    clear_terminal();
+    
+    cout<<"2"<<endl;
+    sleep_ms(1000);
+    clear_terminal();
+    
+    cout<<"1"<<endl;
+    sleep_ms(1000);
+    clear_terminal();
+    
+    cout<<"START!"<<endl;
+    sleep_ms(1000);
+    clear_terminal();
+    
+    while(true){
+        loop();
+    }
+    return 0;
+}
